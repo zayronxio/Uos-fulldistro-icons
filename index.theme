@@ -68,7 +68,9 @@ Type=Fixed
 [apps/128]
 Size=128
 Context=Applications
-Type=Fixed
+MinSize=16
+MaxSize=512
+Type=Scalable
 
 [apps/256]
 Size=256
