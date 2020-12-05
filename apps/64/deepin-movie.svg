@@ -1,29 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <defs>
-    <filter id="deepin-movie-a" width="127.6%" height="127.6%" x="-13.8%" y="-13.8%" filterUnits="objectBoundingBox">
-      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
-      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
-      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixOuter1"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <linearGradient id="deepin-movie-b" x1="50%" x2="50%" y1="2.375%" y2="100%">
-      <stop offset="0%" stop-color="#3E3E3E"/>
-      <stop offset="100%" stop-color="#0F0F0F"/>
-    </linearGradient>
-    <linearGradient id="deepin-movie-c" x1="40.768%" x2="50%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#B0FAFF"/>
-      <stop offset="100%" stop-color="#0D96C2"/>
-    </linearGradient>
-  </defs>
-  <g fill="none" fill-rule="evenodd" filter="url(#deepin-movie-a)" transform="translate(3 3)">
-    <circle cx="29" cy="29" r="27.667" fill="url(#deepin-movie-b)" stroke="url(#deepin-movie-c)" stroke-width="2.667"/>
-    <path fill="#FF006B" d="M24.3882745,41.9106267 C21.9646974,43.29381 20,42.1599456 20,39.3721011 L20,19.1246679 C20,16.3394957 21.9757123,15.2092454 24.3882745,16.5861423 L42.1864454,26.7439097 C44.6100225,28.1270929 44.5990076,30.3759625 42.1864454,31.7528594 L24.3882745,41.9106267 Z"/>
-    <path fill="#FFB600" d="M24.223,41.9994253 L24.3882745,41.9106267 C23.0194768,42.6918266 21.797053,42.670136 20.9922844,42.0010412 L24.223,41.9994253 Z M24.3882745,41.9106267 L24.225,41.9994253 L24.223,41.9994253 L24.3882745,41.9106267 Z M28,18.6474253 L36,23.2134253 L36,35.2824253 L28,39.8484253 L28,18.6474253 Z"/>
-    <path fill="#1473FF" d="M24.3882745,16.5861423 L28,18.647 L28,39.848 L24.3882745,41.9106267 C21.9646974,43.29381 20,42.1599456 20,39.3721011 L20,19.1246679 C20,16.3394957 21.9757123,15.2092454 24.3882745,16.5861423 Z"/>
-    <path stroke="#FFF" stroke-opacity=".3" stroke-width="2" d="M23.8925997,41.0421185 L41.6907706,30.8843511 C43.4354382,29.8886349 43.4373799,28.6092422 41.6907706,27.6124179 L23.8925997,17.4546505 C22.1413803,16.455195 21,17.1131896 21,19.1246679 L21,39.3721011 C21,41.3903478 22.1339303,42.0458259 23.8925997,41.0421185 Z"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1">
+ <rect style="opacity:0.2" width="56" height="56" x="4" y="5" rx="4.2" ry="4.2"/>
+ <rect style="fill:#047dff" width="56" height="56" x="4" y="4" rx="4.2" ry="4.2"/>
+ <path style="opacity:0.3;fill-rule:evenodd" d="m 9,9 v 6 h 6 V 9 Z m 10,0 v 6 h 6 V 9 Z m 10,0 v 6 h 6 V 9 Z m 10,0 v 6 h 6 V 9 Z m 10,0 v 6 h 6 V 9 Z"/>
+ <path style="opacity:0.2;fill-rule:evenodd" d="m 27,40.322407 v -14.644915 0 C 27,25.303324 27.315773,25 27.705299,25 c 0.1288,0 0.255139,0.03388 0.365313,0.09796 l 12.5893,7.322456 v 0 c 0.333203,0.193804 0.43976,0.610379 0.238003,0.930444 -0.05897,0.09353 -0.140623,0.171979 -0.238003,0.228618 l -12.5893,7.322459 v 0 c -0.333201,0.193803 -0.766871,0.09146 -0.96863,-0.228619 -0.06671,-0.10584 -0.101976,-0.227193 -0.101976,-0.350916 z"/>
+ <path style="fill:#ffffff;fill-rule:evenodd" d="m 27,39.322407 v -14.644915 0 C 27,24.303324 27.315773,24 27.705299,24 c 0.1288,0 0.255139,0.03388 0.365313,0.09796 l 12.5893,7.322456 v 0 c 0.333203,0.193804 0.43976,0.610379 0.238003,0.930444 -0.05897,0.09353 -0.140623,0.171979 -0.238003,0.228618 l -12.5893,7.322459 v 0 c -0.333201,0.193803 -0.766871,0.09146 -0.96863,-0.228619 -0.06671,-0.10584 -0.101976,-0.227193 -0.101976,-0.350916 z"/>
+ <path style="opacity:0.3;fill-rule:evenodd" d="m 9,49 v 6 h 6 v -6 z m 10,0 v 6 h 6 v -6 z m 10,0 v 6 h 6 v -6 z m 10,0 v 6 h 6 v -6 z m 10,0 v 6 h 6 v -6 z"/>
+ <path style="fill:#ffffff;opacity:0.1" d="M 8.1992188 4 C 5.8724189 4 4 5.8724189 4 8.1992188 L 4 9.1992188 C 4 6.8724189 5.8724189 5 8.1992188 5 L 55.800781 5 C 58.127581 5 60 6.8724189 60 9.1992188 L 60 8.1992188 C 60 5.8724189 58.127581 4 55.800781 4 L 8.1992188 4 z"/>
 </svg>
